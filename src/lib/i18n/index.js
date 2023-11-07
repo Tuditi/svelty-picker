@@ -197,6 +197,22 @@ export const pt_BR = {
   backToDate: 'Voltar para o calendário'
   }
 
+// Chinese Simplified translation by shiroko <hhx.xxm@gmail.com>
+export const zh_CN = {
+  days:        ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'],
+  daysShort:   ['周日', '周一', '周二', '周三', '周四', '周五', '周六'],
+  daysMin:     ['日', '一', '二', '三', '四', '五', '六'],
+  months:      ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
+  monthsShort: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
+  meridiem:    ['上午', '下午'],
+  suffix:      ['', '', '', ''],
+  todayBtn:    '今天',
+  clearBtn:    '清空',
+  timeView:    '显示时间选择',
+  backToDate:  '返回到日历选项卡'
+}
+
+
 export default {
-  cz, de, en, es, fr, hu, id, jp, sk, ko, nl, pt_BR
+  cz, de, en, es, fr, hu, id, jp, sk, ko, nl, pt_BR, zh_CN
 }
